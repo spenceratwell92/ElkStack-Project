@@ -69,11 +69,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 It allows you to deploy to multiple servers using a single playbook
 
 The playbook implements the following tasks:
-Install docker.io
-Install Python-pip
-Install docker container
-Launch docker container: elk
-Command: sysctl -w vm.max_map_count=262144
+-Install docker.io
+-Install Python-pip
+-Install docker container
+-Launch docker container: elk
+-Command: sysctl -w vm.max_map_count=262144
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
